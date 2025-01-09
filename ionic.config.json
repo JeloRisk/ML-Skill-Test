@@ -1,0 +1,7 @@
+{
+  "name": "SkillDex",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
