@@ -1,0 +1,30 @@
+/** @format */
+
+ion-input.custom {
+  --background: #f5f6fa;
+  --color: #551d1d;
+  --placeholder-color: #551d1d;
+  --placeholder-opacity: 0.8;
+
+  --padding-bottom: 15px;
+  --padding-end: 15px;
+  --padding-start: 15px;
+  --padding-top: 15px;
+}
+
+ion-input.custom.ios .input-bottom .helper-text,
+ion-input.custom.ios .input-bottom .counter,
+ion-input.custom.md .input-bottom .helper-text,
+ion-input.custom.md .input-bottom .counter {
+  color: var(--ion-color-primary);
+}
+.title-margin-sm {
+  margin: 0;
+
+  margin-left: 16px;
+  font-weight: bold;
+}
+.custom-margin-sm {
+  margin: 0;
+  margin-left: 16px;
+}
