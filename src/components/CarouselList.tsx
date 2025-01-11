@@ -45,7 +45,6 @@ const CarouselList: React.FC = () => {
           slot='start'
           style={{ position: "absolute", top: "10px", left: "10px", zIndex: 10 }}>
           <IonBackButton defaultHref='/' />
-        
         </IonButtons>
 
         {slides.map((slide) => (
@@ -62,11 +61,11 @@ const CarouselList: React.FC = () => {
           </SwiperSlide>
         ))}
 
-        <button
+        <IonButtons
           className='welcome-carousel__button'
           style={{ backgroundColor: "#F49EB1" }}>
           Let’s Go!
-        </button>
+        </IonButtons>
       </Swiper>
     </div>
   );

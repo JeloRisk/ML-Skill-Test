@@ -19,12 +19,12 @@
   font-weight: bold;
   font-size: 24px;
   padding: 0;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 .swiper-slide {
   display: flex;
-  wi
+
   height: 100%;
   align-items: center;
 }
@@ -68,7 +68,7 @@
 
 
 .block{
-padding-top: 25px;
+padding-top:px;
 }
 ion-modal {
   --height: auto;
